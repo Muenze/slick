@@ -460,6 +460,7 @@
 
             dotString += '</ul>';
 
+            $(_.options.appendDots).empty();
             _.$dots = $(dotString).appendTo(
                 _.options.appendDots);
 
