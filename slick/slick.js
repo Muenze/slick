@@ -857,7 +857,7 @@
 
         _.cleanUpRows();
 
-        _.$slider.removeClass('slick-slider');
+        // _.$slider.removeClass('slick-slider');
         _.$slider.removeClass('slick-initialized');
 
         _.unslicked = true;
